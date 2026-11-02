@@ -1,68 +1,64 @@
 # Taha Tahsin Akyüz
 
-**Computer Engineering | Hardware-Software Co-Design (RISC-V & FPGA) • AI Systems & LLM Agents • Full-Stack & Linux Systems Development**
+**Software Developer & Computer Engineer | Angular · React · TypeScript · Python · Firebase · AI-Assisted Systems & RISC-V/FPGA**
 
-[LinkedIn](https://www.linkedin.com/in/taha-tahsin-aky%C3%BCz-065a0b231) • [AkyuzIDE Releases](https://github.com/tahatahsinakyuz/AkyuzIDE-releases/releases) • [taha.tahsin.akyuz18@erzurum.edu.tr](mailto:taha.tahsin.akyuz18@erzurum.edu.tr)
+[LinkedIn](https://www.linkedin.com/in/taha-tahsin-aky%C3%BCz-065a0b231) • [takyuz515@gmail.com](mailto:takyuz515@gmail.com) • [AkyuzIDE Releases](https://github.com/tahatahsinakyuz/AkyuzIDE-releases/releases)
 
 ---
 
-## About Me
+## Summary
 
-I design and build end-to-end engineering systems spanning digital hardware architecture (**Verilog / RISC-V / FPGA**), local Large Language Model agents (**LLM / NLP / RAG**), and production desktop/web applications.
+Computer Engineering graduate (**Erzurum Technical University**) with hands-on experience developing **Angular**, **React**, **TypeScript**, **Firebase**, and **Python** applications, API integrations, and AI-assisted engineering workflows.
 
-- **EDA & Hardware Tooling:** Creator of [AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases), an AI-assisted Electronic Design Automation (EDA) desktop IDE for RISC-V and FPGA development.
-- **Computer Architecture & Embedded Systems:** Designed a 5-stage pipelined **RV32I RISC-V** processor core from scratch with hazard detection, forwarding, Wishbone SoC peripherals, and Basys3 FPGA hardware implementations.
-- **Applied AI, NLP & Operations Research:** Developing LLM/RAG agents for RISC-V pipeline hazard explanation, demand forecasting models (**XGBoost + LSTM**), and Mixed-Integer Linear Programming (**MILP**) routing optimization.
-- **Systems & Full-Stack Engineering:** Building Linux audio routing tools (**AkyuzMix** for PulseAudio/PipeWire) and containerized full-stack web platforms (**FastAPI, React, Electron, MERN, Docker**).
+- **Web & Full-Stack Engineering:** Built interactive educational platforms and SaaS-oriented reservation/health management systems using Angular, React, Node.js, FastAPI, Firebase, MongoDB, and Docker.
+- **AI-Assisted EDA & Hardware Design:** Led a **TÜBİTAK 2209-A** supported project designing a 5-stage pipelined **RV32I RISC-V** processor in Verilog and building **[AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases)** — an autonomous AI-assisted HDL/FPGA development environment.
+- **Machine Learning & Operations Research:** Developed demand forecasting (**XGBoost + LSTM**) and vehicle routing/scheduling optimization (**MILP + OSRM + Streamlit**) systems for **TEKNOFEST**.
 
 ---
 
 ## Technical Skills
 
-| Domain | Technologies & Tools |
+| Category | Technologies & Tools |
 | :--- | :--- |
-| **Hardware, Embedded & EDA** | `Verilog HDL`, `RISC-V (RV32I)`, `Xilinx Vivado`, `Basys3 FPGA`, `Icarus Verilog`, `Wishbone SoC`, `C`, `RISC-V Assembly`, `Tcl` |
-| **AI, NLP & Data Science** | `Python`, `Ollama (Local LLM)`, `RAG & Semantic Search`, `XGBoost`, `LSTM`, `PuLP (MILP)`, `NetworkX`, `Streamlit`, `Pytest` |
-| **Backend, Desktop & Systems** | `FastAPI`, `Node.js`, `Express.js`, `Electron`, `Linux (PulseAudio / PipeWire)`, `systemd`, `Docker` |
-| **Frontend** | `TypeScript`, `JavaScript`, `React`, `Angular`, `Vite`, `Monaco Editor` |
-| **Databases & Cloud** | `MongoDB`, `Firebase (Firestore, Hosting, Cloud Functions)`, `MySQL` |
+| **Web & Backend** | `Angular`, `React`, `TypeScript`, `JavaScript`, `Node.js`, `Express.js`, `FastAPI`, `Firebase (Firestore, Hosting, Functions)`, `MongoDB`, `SQL`, `REST APIs`, `Electron` |
+| **Programming, AI & Data** | `Python`, `C`, `Java`, `Ollama (Local LLM)`, `RAG & Semantic Search`, `XGBoost`, `LSTM`, `TensorFlow`, `Keras`, `Scikit-learn`, `Pandas`, `NumPy`, `PuLP (MILP)`, `Streamlit` |
+| **Systems, Hardware & Tools** | `Git`, `GitHub`, `Docker`, `Linux (PulseAudio / PipeWire, systemd)`, `Verilog HDL`, `RISC-V (RV32I)`, `FPGA (Xilinx Vivado / Basys3)`, `Icarus Verilog` |
 
 ---
 
 ## Selected Projects
 
-| Project | Domain | Tech Stack | Overview |
+| Project | Context / Recognition | Tech Stack | Overview |
 | :--- | :--- | :--- | :--- |
-| **[AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases)** | EDA / AI Desktop IDE | `TypeScript`, `React`, `Electron`, `FastAPI`, `Ollama`, `Verilog` | Desktop IDE for RISC-V and FPGA development featuring a multi-mode AI engineering agent (`agent`/`ask`/`plan`), Icarus Verilog simulation, Vivado synthesis integration, and a RISC-V assembler. |
-| **Akyuz RV32I (`akyuz-rv32i`)** | Processor Architecture & FPGA | `Verilog`, `RISC-V Assembly`, `C`, `Tcl`, `Basys3` | Custom 5-stage pipelined RV32I RISC-V processor core with data forwarding, hazard detection unit, Wishbone SoC bus (UART, SPI, GPIO, Timer), VGA controller, and bare-metal C/Assembly applications on FPGA. |
-| **ASM-Explain Agent (`NLP`)** | AI / Hardware Analysis | `Python`, `FastAPI`, `Semantic Search`, `LLM`, `Pytest` | Automated analysis agent that parses RV32I assembly traces from Verilog testbenches, detects 5-stage pipeline hazards (RAW, load-use stall, branch flush), and generates cycle-accurate explanations via vector search and local LLMs (255/255 unit tests). |
-| **TEKNOFEST Logistics** | Machine Learning & Optimization | `Python`, `XGBoost`, `LSTM`, `PuLP (MILP)`, `NetworkX`, `Streamlit` | E-commerce logistics optimization platform combining warehouse-level daily demand forecasting (XGBoost + LSTM) with Mixed-Integer Linear Programming (MILP) for cost-optimal vehicle assignment and routing. |
-| **AkyuzMix** | Linux Systems / Desktop | `TypeScript`, `Electron`, `React`, `PulseAudio / PipeWire` | Multi-device Bluetooth audio mixer for Linux enabling simultaneous audio streaming across multiple headphones/speakers (`module-combine-sink`), real-time waveform metering, and smart stream routing. |
-| **Smart Nutrition & Cafeteria (`AkilliBeslenmeTakibi`)** | Full-Stack & AI | `MongoDB`, `Express`, `React`, `Node.js`, `Python ML`, `Docker` | Containerized MERN stack reservation and nutrition tracking platform integrated with an ML data-quality pipeline and Ollama/RAG-powered menu planning engine. |
+| **[AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases)** | TÜBİTAK 2209-A & Research Paper | `TypeScript`, `React`, `Electron`, `FastAPI`, `Ollama`, `Icarus Verilog`, `Vivado` | AI-assisted autonomous EDA desktop IDE for RISC-V and FPGA development with multi-mode agent workflows (`agent`/`ask`/`plan`), RTL simulation, synthesis, and UART flashing. |
+| **Akyuz RV32I (`akyuz-rv32i`)** | TÜBİTAK 2209-A Capstone | `Verilog HDL`, `RISC-V Assembly`, `C`, `Tcl`, `Basys3 FPGA` | Five-stage pipelined RV32I RISC-V processor core featuring hazard detection, data forwarding, Wishbone SoC peripherals (UART, SPI, GPIO, Timer), and VGA hardware applications. |
+| **ASM-Explain Agent (`NLP`)** | AI / Hardware Analysis | `Python`, `FastAPI`, `Semantic Search`, `LLM`, `Pytest` | Automated analysis agent that parses RV32I assembly traces from Verilog testbenches, detects 5-stage pipeline hazards, and generates cycle-accurate explanations via vector search and LLMs (255/255 unit tests). |
+| **Logistics Linehaul Optimization (`TEKNOFEST_Lojistik`)** | TEKNOFEST 2026 | `Python`, `XGBoost`, `LSTM`, `PuLP (MILP)`, `OSRM`, `Streamlit` | Machine learning-driven warehouse demand forecasting combined with Mixed-Integer Linear Programming (MILP) and OSRM real-road distance calculations for vehicle routing optimization. |
+| **Smart Cafeteria & Health Management (`AkilliBeslenmeTakibi`)** | TÜBİTAK 1512 BİGG Submission | `React`, `Node.js`, `MongoDB`, `Firebase`, `Python ML`, `Docker` | SaaS-oriented cafeteria reservation and nutrition tracking platform integrated with an ML data-quality pipeline and AI-assisted menu planning engine. |
+| **AkyuzMix** | Linux Desktop Utility | `TypeScript`, `Electron`, `React`, `PulseAudio / PipeWire` | Multi-device Bluetooth audio mixer for Linux enabling simultaneous audio routing across multiple outputs (`module-combine-sink`) and real-time waveform monitoring. |
+| **NEXUS SAGA: Mission Defuse (`Mission-Defuse`)** | Educational Platform Module | `Angular`, `TypeScript`, `CSS`, `HTML` | Standalone offline-first interactive English learning and cyberpunk mini-RPG application built with Angular. |
+
+---
+
+## Research & Recognition
+
+- **Publication:** Author of *"An AI-Assisted Autonomous EDA Tool: End-to-End Hardware Design from Natural Language to FPGA Bitstream"* (prepared for international congress).
+- **Grants & Entrepreneurship:** **TÜBİTAK 2209-A** Research Project Support Recipient • **TÜBİTAK 1512 BİGG** Technopreneurship Program Applicant.
+- **Competitions:** **TEKNOFEST** Social Innovation Finalist • **TEKNOFEST 2024** Underwater Systems Team Captain • Faculty Project Competition **3rd Place**.
 
 ---
 
 <details>
-<summary><strong>Türkçe Versiyon / Turkish Overview (Görmek için tıklayın)</strong></summary>
+<summary><strong>Türkçe Özet / Turkish Overview (Görmek için tıklayın)</strong></summary>
 
 <br>
 
 ### Hakkımda
 
-Donanım mimarisinden (**Verilog, RISC-V, FPGA**) yerel Büyük Dil Modelleri (**LLM / NLP ajanları**) ve modern masaüstü/web uygulamalarına uzanan uçtan uca mühendislik çözümleri geliştiriyorum.
+**Erzurum Teknik Üniversitesi Bilgisayar Mühendisliği** mezunuyum. **Angular, React, TypeScript, Firebase ve Python** ile modern web/masaüstü uygulamaları, API entegrasyonları, makine öğrenmesi modelleri ve **RISC-V / FPGA** tabanlı gömülü/sayısal sistemler geliştiriyorum.
 
-- **EDA ve Donanım Geliştirme Araçları:** RISC-V ve FPGA geliştiricileri için entegre yapay zeka asistanına sahip masaüstü geliştirme ortamı [AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases) projesini geliştiriyorum.
-- **İşlemci Mimarisi ve Gömülü Sistemler:** Sıfırdan 5 aşamalı boru hattına (pipeline) sahip RV32I RISC-V işlemci çekirdeği, Wishbone SoC ve Basys3 FPGA donanım tasarımları üzerine çalışıyorum.
-- **Yapay Zeka ve Veri Bilimi:** RISC-V boru hattı çakışmalarını (hazard) analiz eden NLP/LLM ajanları, talep tahmini (XGBoost, LSTM) ve yöneylem araştırması (MILP) optimizasyon modelleri geliştiriyorum.
-- **Sistem ve Masaüstü Yazılımları:** Linux ses altyapısı (PulseAudio / PipeWire) için çoklu Bluetooth ses mikseri (AkyuzMix) ve ölçeklenebilir web uygulamaları inşa ediyorum.
-
-### Öne Çıkan Projeler (Özet)
-
-- **[AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases):** RISC-V ve FPGA geliştirme için AI ajan destekli (`agent`/`ask`/`plan` modlu), Icarus Verilog simülasyonlu, Vivado ve RISC-V Assembler entegreli masaüstü IDE.
-- **Akyuz RV32I (`akyuz-rv32i`):** 5 aşamalı boru hattı, hazard detection, forwarding birimi, Wishbone SoC (UART, SPI, GPIO, Timer) ve VGA kontrolcüsü içeren RV32I işlemci çekirdeği.
-- **ASM-Explain Agent (`NLP`):** Verilog testbench çıktılarından RV32I assembly komutlarını ayrıştıran ve 5 aşamalı pipeline çakışmalarını vektör arama + yerel LLM ile açıklayan analiz ajanı (255/255 birim testi).
-- **TEKNOFEST Lojistik:** Depo bazlı günlük talep tahmini (XGBoost + LSTM) ve Karma Tamsayılı Doğrusal Programlama (MILP) ile araç atama/rotalama optimizasyonu.
-- **AkyuzMix:** Linux üzerinde birden fazla Bluetooth kulaklık ve hoparlöre eşzamanlı ses yönlendiren çoklu cihaz ses mikseri.
-- **Akıllı Beslenme Takibi:** Yapay zeka (Ollama/RAG) destekli menü planlama, veri kalitesi hattı ve Docker mimarisine sahip MERN stack platformu.
+- **Web ve Full-Stack Geliştirme:** Angular, React, Node.js, FastAPI, Firebase, MongoDB ve Docker kullanarak interaktif eğitim platformları ve SaaS odaklı rezervasyon/sağlık yönetim sistemleri (**TÜBİTAK 1512 BİGG** başvurusu) geliştirdim.
+- **Yapay Zeka Destekli EDA ve İşlemci Tasarımı:** **TÜBİTAK 2209-A** destekli proje kapsamında Verilog ile 5 aşamalı **RV32I RISC-V** işlemci çekirdeği tasarladım ve doğal dilden FPGA bitstream üretimine uzanan **[AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases)** geliştirme ortamını inşa ettim.
+- **Makine Öğrenmesi ve Optimizasyon:** **TEKNOFEST** kapsamında XGBoost + LSTM ile talep tahmini ve MILP + OSRM + Streamlit ile gerçek yol mesafeli araç rotalama optimizasyonu geliştirdim.
 
 </details>

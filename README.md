@@ -13,7 +13,7 @@ Donanım mimarisinden (Verilog, RISC-V, FPGA) yerel Büyük Dil Modelleri (LLM /
 - **EDA ve Donanım Geliştirme Araçları:** RISC-V ve FPGA geliştiricileri için entegre yapay zeka asistanına sahip masaüstü geliştirme ortamı [AkyuzIDE](https://github.com/tahatahsinakyuz/AkyuzIDE-releases) projesini geliştiriyorum.
 - **İşlemci Mimarisi ve Gömülü Sistemler:** Sıfırdan 5 aşamalı boru hattına (pipeline) sahip RV32I RISC-V işlemci çekirdeği, Wishbone SoC ve Basys3 FPGA donanım tasarımları üzerine çalışıyorum.
 - **Yapay Zeka ve Veri Bilimi:** RISC-V boru hattı çakışmalarını (hazard) analiz eden NLP/LLM ajanları, talep tahmini (XGBoost, LSTM) ve yöneylem araştırması (MILP) optimizasyon modelleri geliştiriyorum.
-- **Sistem ve Masaüstü Yazılımları:** Linux ses altyapısı (PulseAudio / PipeWire) için çoklu Bluetooth ses mikseri (AkyuzMix) ve ölçeklenebilir web/mobil uygulamalar inşa ediyorum.
+- **Sistem ve Masaüstü Yazılımları:** Linux ses altyapısı (PulseAudio / PipeWire) için çoklu Bluetooth ses mikseri (AkyuzMix) ve ölçeklenebilir web uygulamaları inşa ediyorum.
 
 ---
 
@@ -24,7 +24,7 @@ Donanım mimarisinden (Verilog, RISC-V, FPGA) yerel Büyük Dil Modelleri (LLM /
 | **Donanım, Gömülü Sistemler & EDA** | `Verilog HDL`, `RISC-V (RV32I)`, `Xilinx Vivado`, `Basys3 FPGA`, `Icarus Verilog`, `Wishbone SoC`, `C`, `RISC-V Assembly`, `Tcl` |
 | **Yapay Zeka, NLP & Veri Bilimi** | `Python`, `Ollama (Local LLM)`, `RAG & Semantic Search`, `XGBoost`, `LSTM`, `PuLP (MILP)`, `NetworkX`, `Streamlit` |
 | **Backend, Masaüstü & Sistem** | `FastAPI`, `Node.js`, `Express.js`, `Electron`, `Linux (PulseAudio / PipeWire)`, `systemd`, `Docker` |
-| **Frontend & Mobil** | `TypeScript`, `JavaScript`, `React`, `Angular`, `Vite`, `Kotlin (Android)` |
+| **Frontend** | `TypeScript`, `JavaScript`, `React`, `Angular`, `Vite` |
 | **Veritabanı & Bulut** | `MongoDB`, `Firebase (Firestore, Hosting, Cloud Functions)`, `MySQL` |
 
 ---
@@ -39,4 +39,3 @@ Donanım mimarisinden (Verilog, RISC-V, FPGA) yerel Büyük Dil Modelleri (LLM /
 | **TEKNOFEST Lojistik** | Veri Bilimi & Optimizasyon | `Python`, `XGBoost`, `LSTM`, `PuLP (MILP)`, `NetworkX`, `Streamlit` | E-ticaret lojistiğinde depo bazlı günlük talep tahmini ve Karma Tamsayılı Doğrusal Programlama (MILP) ile minimum maliyetli araç atama ve rotalama optimizasyonu. |
 | **AkyuzMix** | Linux Sistem / Masaüstü | `TypeScript`, `Electron`, `React`, `PulseAudio / PipeWire` | Linux üzerinde birden fazla Bluetooth kulaklık ve hoparlöre eşzamanlı ses yönlendiren, gerçek zamanlı dalga formu (waveform) ve cihaz bazlı seviye kontrolü sunan ses mikseri. |
 | **Akıllı Beslenme Takibi** | Full-Stack & AI | `MongoDB`, `Express`, `React`, `Node.js`, `Python ML`, `Docker` | Yapay zeka (Ollama/RAG) destekli menü planlama, veri kalitesi hattı (pipeline) ve konteyner mimarisine sahip akıllı beslenme ve yemekhane rezervasyon platformu. |
-| **Salvage Dive (`denizaltimobil`)** | Mobil Uygulama / Oyun | `Kotlin`, `Android`, `Custom Game Engine` | Sabit zaman adımlı (fixed-timestep) oyun motoru, derinlik/oksijen yönetimi, dinamik ganimet üretimi ve tersane ekonomisine sahip Android oyunu. |
